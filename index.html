@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Homework 8</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
+
+    <style>
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+      }
+
+      .gallery-item {
+        list-style: none;
+      }
+
+      .gallery-image {
+        display: block;
+        width: 360px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="gallery"></ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
+    <script src="./gallery.js" type="module"></script>
+  </body>
+</html>
